@@ -1,0 +1,16 @@
+
+.Logo{
+    background-color: #282c34;
+    background-image: url("../static/test.png");
+    height: 100%;
+}
+
+.LoginPage {
+    min-height: 100vh;
+    color: black;
+    text-align: center;
+    background-color: white;
+    align-content: center;
+
+}
+

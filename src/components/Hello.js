@@ -3,14 +3,16 @@ import React from "react";
 
 function Hello(props) {
 
-    function Clickme() {
-        alert("button clicked")
-    }
+    function concatenate(name , surname){
 
+        return name + ' ' + surname
+    }
+    let x = 3
+    let name = 'mike '
+    console.log('my name is ' + name)
     return(
         <div className= "container">
-            <h1>My full name {props.name} {props.lastname}</h1>
-            <button className= "btn btn-success" onClick = {Clickme}> Click me </button>
+            <h1>My name is {name}</h1>
         </div>
 
     )
